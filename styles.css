@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    box-sizing: border-box;
+}
+#container {
+    border-radius: 18px;
+    width: 30vw;
+    height: 80vh;
+    margin: 70px auto 0 auto;
+    background-color: black;
+    padding-top: 20px;
+    
+}
+#container h3 {
+    color: beige;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#display {
+    border: 40px solid rgb(165, 162, 162);
+    margin: 2px 20px 2px 20px;
+    color: white;
+}
+section {
+    margin: 30px 20px;
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+    grid-gap: 15px;
+    
+}
+#button {
+    border: 1px solid #111;
+    background: rgb(165, 162, 162) ;
+    padding: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #EEE;
+    border-radius: 5px;
+   
+}
+#button:hover {
+    background: rgb(59, 56, 56);
+}
+.bC {
+    grid-column: span 3;
+}
+.bplus {
+    grid-column: span 2;
+}
